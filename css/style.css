@@ -155,6 +155,17 @@ li > a {
 
 /* main */
 
+.wave {
+  background-image: url(../img/wave.svg);
+  height: 100px;
+}
+
+.wave-white {
+  background-image: url(../img/wave-white.svg);
+  background-color: #d2d2d2;
+  height: 100px;
+}
+
 .card-container {
   display: flex;
   align-items: center;
@@ -174,7 +185,7 @@ li > a {
   border: 1px dashed black; */
 }
 
-main > :nth-child(even) {
+main > section:nth-of-type(even) {
   background-color: #d2d2d2;
 }
 
