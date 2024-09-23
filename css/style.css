@@ -93,8 +93,10 @@ li {
 
 header > .header-section {
   background-image: url("../img/jumbo.png");
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment:; */
   /* height: 660px; */
 }
 
