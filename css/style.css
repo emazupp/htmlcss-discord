@@ -24,7 +24,7 @@ a {
 
 .container {
   margin: 0 auto;
-  width: 1080px;
+  width: 1200px;
   max-width: 100%;
 }
 
@@ -59,7 +59,7 @@ li {
 
 .logo-container,
 .login-container {
-  width: 20%;
+  min-width: 20%;
   display: flex;
   padding: 5px;
   /* border: 1px dashed black; */
@@ -74,7 +74,7 @@ li {
 }
 
 .links-container {
-  width: 60%;
+  min-width: 60%;
   padding: 5px;
   /* border: 1px dashed black; */
 }
@@ -157,17 +157,15 @@ li > a {
 }
 
 .card-container > .big-card-item {
-  width: 60%;
-  height: 370px;
-  background-color: #1e8ff7;
-  border: 1px dashed black;
+  min-width: 60%;
+  /* background-color: #1e8ff7;
+  border: 1px dashed black; */
 }
 
 .card-container > .small-card-item {
-  width: 40%;
-  height: 370px;
-  background-color: #f9bfcb;
-  border: 1px dashed black;
+  min-width: 40%;
+  /* background-color: #f9bfcb;
+  border: 1px dashed black; */
 }
 
 main > :nth-child(even) {
@@ -179,11 +177,19 @@ main > :nth-child(even) {
 }
 
 .huge-card-item {
-  height: 700px;
-  width: 900px;
+  min-width: 100%;
   background-color: #228822;
   border: 1px dashed black;
 }
+
+.section-title {
+  font-size: 3em;
+}
+
+.small-card-item > .section-title > p {
+  padding-top: 20px;
+}
+
 /* footer */
 
 .footer {
