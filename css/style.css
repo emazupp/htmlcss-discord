@@ -18,7 +18,7 @@ a {
 
 /* utils */
 :root {
-  --general-padding: 40px;
+  --general-padding: 70px;
   --footer-padding: 15px;
 }
 
@@ -250,13 +250,13 @@ main > :nth-child(even) {
 }
 
 .footer-large-section {
-  width: 300px;
+  width: 35%;
   background-color: #ee8081;
   border: 1px dashed black;
 }
 
 .footer-small-section {
-  width: 150px;
+  width: 16.25%;
   background-color: #1fafa6;
   border: 1px dashed white;
 }
