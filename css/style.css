@@ -178,12 +178,20 @@ main > :nth-child(even) {
 
 .huge-card-item {
   min-width: 100%;
-  background-color: #228822;
-  border: 1px dashed black;
+  /* background-color: #228822;
+  border: 1px dashed black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.huge-card-item > p {
+  padding-top: 25px;
+  text-align: center;
 }
 
 .section-title {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 50px;
 }
 
