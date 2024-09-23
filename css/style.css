@@ -184,10 +184,11 @@ main > :nth-child(even) {
 
 .section-title {
   font-size: 3em;
+  line-height: 50px;
 }
 
-.small-card-item > .section-title > p {
-  padding-top: 20px;
+.small-card-item > p {
+  padding-top: 25px;
 }
 
 /* footer */
