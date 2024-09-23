@@ -199,6 +199,28 @@ main > :nth-child(even) {
   padding-top: 25px;
 }
 
+.areyouready {
+  background-image: url(../img/stars.svg);
+  background-repeat: no-repeat;
+  height: 100px;
+  min-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 1.5em;
+  background-position: center;
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+}
+
+.lower-button-downloadmac {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #7289da;
+  color: white;
+}
+
 /* footer */
 
 .footer {
