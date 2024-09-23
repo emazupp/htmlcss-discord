@@ -12,6 +12,10 @@ button {
   background-color: transparent;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* utils */
 :root {
   --general-padding: 40px;
@@ -26,7 +30,6 @@ button {
 
 li {
   list-style-type: none;
-  color: white;
 }
 
 /* header */
@@ -84,8 +87,8 @@ li {
 
 header > .header-section {
   background-image: url("../img/jumbo.png");
-  background-size: cover;
-  /* background-attachment: fixed; */
+  background-size: contain;
+  background-attachment: fixed;
   /* height: 660px; */
 }
 
@@ -93,8 +96,8 @@ header > .header-section > .header-section-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: var(--general-padding);
-  padding-bottom: var(--general-padding);
+  padding-top: 200px;
+  padding-bottom: 70px;
 }
 
 .header-section-content {
@@ -136,6 +139,10 @@ header > .header-section > .header-section-container {
 
 .button-opendiscord {
   background-color: #23272a;
+  color: white;
+}
+
+li > a {
   color: white;
 }
 
