@@ -19,6 +19,7 @@ a {
 select {
   border: none;
   background-color: transparent;
+  color: white;
 }
 
 /* utils */
@@ -235,35 +236,35 @@ main > :nth-child(even) {
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
+  padding-top: var(--general-padding);
 }
 
 .footer-links-section {
   display: flex;
   flex-direction: row;
   padding-bottom: 30px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #7289da;
 }
 
 .footer-signin-section {
   border-top: 1px solid rgb(38, 38, 38);
 }
 
-.footer-large-section,
+/* .footer-large-section,
 .footer-small-section {
   height: 390px;
-}
+} */
 
 .footer-large-section {
   width: 35%;
-  background-color: #ee8081;
-  border: 1px dashed black;
+  /* background-color: #ee8081;
+  border: 1px dashed black; */
 }
 
 .footer-small-section {
   width: 16.25%;
-  background-color: #1fafa6;
-  border: 1px dashed white;
+  /* background-color: #1fafa6;
+  border: 1px dashed white; */
 }
 
 .footer-signin-section {
@@ -273,16 +274,17 @@ main > :nth-child(even) {
 .footer-logo-signin-container {
   display: flex;
   justify-content: space-between;
-  background-color: #7efdd2;
-  padding-top: var(--footer-padding);
+  /* background-color: #7efdd2; */
   padding-bottom: var(--footer-padding);
 }
 
-.footer-logo,
 .signin-button {
-  padding: 2px 5px;
-  background-color: #f7b6c0;
-  border: 1px dashed black;
+  padding: 0px 12px;
+  background-color: #7289da;
+  border-radius: 20px;
+  color: white;
+  /* background-color: #f7b6c0;
+  border: 1px dashed black; */
 }
 
 .footer-social-img {
@@ -296,9 +298,28 @@ main > :nth-child(even) {
 .social-img {
   display: flex;
   gap: 10px;
+  padding-top: 15px;
 }
 
 .footer-large-section > h4 {
   font-size: 1.7em;
   color: #7289da;
+}
+
+.footer-language-selection {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  gap: 5px;
+}
+
+.footer-small-section > ul > :nth-child(1) {
+  color: #7289da;
+  font-size: 0.9em;
+}
+
+.footer-small-section > ul > :not(:first-child) {
+  color: white;
+  padding-top: 13px;
+  font-size: 0.9em;
 }
