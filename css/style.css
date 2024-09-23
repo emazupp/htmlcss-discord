@@ -284,3 +284,21 @@ main > :nth-child(even) {
   background-color: #f7b6c0;
   border: 1px dashed black;
 }
+
+.footer-social-img {
+  width: 25px;
+}
+
+.language-img {
+  width: 25px;
+}
+
+.social-img {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-large-section > h4 {
+  font-size: 1.7em;
+  color: #7289da;
+}
